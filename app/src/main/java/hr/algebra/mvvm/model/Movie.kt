@@ -1,4 +1,4 @@
-package hr.algebra.mvvm.data
+package hr.algebra.mvvm.model
 
 data class Movie( val title : String, val director : String ) {
     override fun toString(): String {

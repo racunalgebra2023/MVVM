@@ -6,6 +6,7 @@ class MovieDatabase private constructor( ) {
         private set
 
     companion object {
+        @Volatile
         private var instance : MovieDatabase? = null
 
         fun getInstance( ) = instance ?: synchronized( this ) {
